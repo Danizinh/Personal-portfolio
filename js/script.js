@@ -21,4 +21,5 @@ function leiaMais() {
 window.onload = setTimeout(()=>{
 document.getElementById('hinge').classList.add('animate__hinge')
 
-},3000)
+},6000)
+
