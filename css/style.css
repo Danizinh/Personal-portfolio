@@ -70,7 +70,7 @@ button {
     filter: drop-shadow(2px 4px 8px #0a0a0b);
 }
 
-.general{
+.general_one{
     position: relative;
     background-image: url("../img/pexels-laker-6156980.jpg");
     background-size: cover;
