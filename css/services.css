@@ -125,56 +125,6 @@ button {
     text-decoration: line-through;
     text-transform: uppercase;
 }
-.circle {
-    background-color: #aaa;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .circle img {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
-
- .content{
-    position: relative;
-    width: 100%;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.content .text-main{
-    position: relative;
-    max-width: 600px;
-}
-
-.content .text-main h2{
-    color:#000;
-    font-size: 2em;
-    line-height: 1.4em;
-    margin-left: 40px;
-}
-.content .text-main h2 label{
-    color: #04AA6D;
-    font-size: 1.2em;
-    font-weight: 900;
-}
-
-.content .text-main p{
-    color:#000;
-    margin-left: 40px;
-    text-transform: uppercase;
-    font-weight: 800;
-} 
-
-#mais{
-    display: none;
-}
 .networks{
     flex-direction: column;
     display: flex;
@@ -182,7 +132,15 @@ button {
     height: 15vh;
     margin: 6px;
 }
+.card-title{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
 
+.card-text{
+    font-size: 16px;
+}
 ::-webkit-scrollbar {
     width: 13px;
     height: 13px;
